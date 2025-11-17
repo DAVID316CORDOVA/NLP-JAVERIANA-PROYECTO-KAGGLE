@@ -72,7 +72,7 @@ try:
         """Cuenta cuántos caracteres en el texto son emojis conocidos."""
         return sum(1 for ch in str(s) if ch in EMOJI_SET)
 
-    log("Emoji lib available ✅")
+    log("Emoji lib available ")
 
 except Exception:
     EMOJI_SET = set()
@@ -675,3 +675,4 @@ report = pd.DataFrame([
 log("\n================= SUMMARY (macro_f1 desc) =================")
 print(report.to_string(index=False))
 log("Done.")
+
