@@ -1,0 +1,50 @@
+{
+  "cv_best_params": {
+    "clf__C": 10.0,
+    "tfidf__max_df": 0.95,
+    "tfidf__min_df": 2,
+    "tfidf__ngram_range": [
+      1,
+      1
+    ]
+  },
+  "cv_best_f1_macro": 0.8254636547646396,
+  "train_f1_macro": 1.0,
+  "train_classification_report": {
+    "True(0)": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 491.0
+    },
+    "Fake(1)": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 480.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 971.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 971.0
+    }
+  },
+  "train_confusion_matrix": [
+    [
+      491,
+      0
+    ],
+    [
+      0,
+      480
+    ]
+  ]
+}
